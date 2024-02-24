@@ -4,7 +4,7 @@ This example shows how to use Supra Oracles real-world data feeds (Push model).
 
 ## [`main.js`](./main.js)
 
-With this script, you start by deploying the [`ConsumerContract.sol`](./contracts/ConsumerContract.sol) and passing to its contructor the Supra storage contract address (`storageContractAddress`). Get the right address from: [https://supra.com/docs/data-feeds/decentralized/networks/](https://supra.com/docs/data-feeds/decentralized/networks/)
+With this script, you start by deploying the [`ConsumerContract.sol`](./contracts/ConsumerContract.sol) and passing to its contructor the Supra storage contract address (`storageContractAddress`). Get the right storage address from: [https://supra.com/docs/data-feeds/decentralized/networks/](https://supra.com/docs/data-feeds/decentralized/networks/)
 
 Then call the `getPrice` and/or `getPriceForMultiplePair` functions using the desired price pair indices. Get the right price pair indices from: [https://supra.com/docs/data-feeds/data-feeds-index/](https://supra.com/docs/data-feeds/data-feeds-index/)
 
